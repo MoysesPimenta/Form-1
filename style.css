@@ -76,9 +76,13 @@ fieldset legend {
   color: #535971;
 }
 
-.input-wrapper-2-columns {
-  gap: 22px;
+#input-wrapper-2-columns {
   display: flex;
+  gap: 22px;
+}
+
+#input-wrapper-2-columns > div > section {
+  width: 300px;
 }
 
 .mentorships {
