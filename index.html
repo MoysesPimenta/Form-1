@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentorship</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Mentorship</h1>
+      <p> Please fill the form bellow to schedule your mentorship</p>
+    </header>
+    <main>
+      <form id="mentorshipRequest">
+        <fieldset id="personalInfo"> 
+          <legend for="personalinfo">Personal Info</legend>
+
+          <div class="line"></div>
+
+          <div class="input-wrapper-2-columns">
+            <section class="twoColumns">
+              <label for="firstname">Name</label>
+              <input type="text" name="firstNme" id="firstName">
+            </section>
+            
+            <section class="twoColumns">
+              <label for="surname">Surname</label>
+              <input type="text" name="surname" id="surname">
+            </section>
+          </div>
+
+          <label for="email">Email <span>(Type a valid email)</span></label>
+          <input type="email" name="email" id="email">
+
+          <label for="password">Password <span>(Minimum 6 characters)</span></label>
+          <input type="password" name="password" id="password">
+
+        </fieldset>
+
+
+        <fieldset id="mentorInfo">
+          <legend for="mentorInfo">Personal Info</legend>
+
+          <div class="line"></div>
+
+          <label for="mentorName">Mentor Name <span>(First name only)</span></label>
+          <input type="text" name="mentorName" id="mentorName">
+
+        </fieldset>
+
+
+        <fieldset id="availableTimes">
+          <legend for="availableTimes">Available Times</legend>
+
+          <div class="line"></div>
+
+          
+          <div class="input-wrapper-3-columns">
+            <div class="mentorships">
+              <section class="input">
+                <label for="fisrtMentorship">First Mentorship</label>
+                <input type="text" name="fisrtMentorship" id="fisrtMentorship">
+              </section>
+              <section class="input">
+                <label for="startTime">Start Time</label>
+                <input type="time" name="startTime" id="startTime">
+              </section>
+              
+              <section class="input">
+                <label for="endTime">End Time</label>
+                <input type="time" name="endTime" id="endTime">
+              </section>
+            </div>
+            <div class="mentorships">
+              <section class="input">
+                <label for="secondMentorship">Second Mentorship</label>
+                <input type="text" name="secondMentorship" id="secondMentorship">
+              </section>
+
+              <section class="input">
+                <label for="SecondStartTime">Start Time</label>
+                <input type="time" name="SecondStartTime" id="SecondStartTime"> 
+              </section>
+
+              <section class="input">
+                <label for="SecondEndTime">End Time</label>
+                <input type="time" name="SecondEndTime" id="SecondEndTime">
+              </section>
+            </div>
+          </div>
+
+        </fieldset>
+        
+      </form>
+    </main>
+    
+    <footer>
+      <button type="submit" form="mentorshipRequest">Save</button>
+    </footer>
+  </div>
+      
+  
+</body>
+</html>
