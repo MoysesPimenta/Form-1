@@ -27,29 +27,29 @@
             <div class="mentorships">
               <section class="twoColumns">
                 <label for="firstname">Name</label>
-                <input type="text" name="firstNme" id="firstName">
+                <input type="text" name="firstNme" id="firstName" minlength="4" required>
               </section>
             </div>
 
             <div class="mentorships">
               <section class="twoColumns">
                 <label for="surname">Surname</label>
-                <input type="text" name="surname" id="surname">
+                <input type="text" name="surname" id="surname" minlength="4" required>
               </section>
             </div>
           </div>
 
           <label for="email">Email <span>(Type a valid email)</span></label>
-          <input type="email" name="email" id="email">
+          <input type="email" name="email" id="email" required>
 
           <label for="password">Password <span>(Minimum 6 characters)</span></label>
-          <input type="password" name="password" id="password">
+          <input type="password" name="password" id="password" minlength="6" required>
 
         </fieldset>
 
 
         <fieldset id="mentorInfo">
-          <legend for="mentorInfo">Personal Info</legend>
+          <legend for="mentorInfo">Personal Info</legend >
 
           <div class="line"></div>
 
@@ -69,16 +69,16 @@
             <div class="mentorships">
               <section class="input">
                 <label for="fisrtMentorship">First Mentorship</label>
-                <input type="text" name="fisrtMentorship" id="fisrtMentorship">
+                <input type="text" name="fisrtMentorship" id="fisrtMentorship" required>
               </section>
               <section class="input">
                 <label for="startTime">Start Time</label>
-                <input type="time" name="startTime" id="startTime">
+                <input type="time" name="startTime" id="startTime" required>
               </section>
               
               <section class="input">
                 <label for="endTime">End Time</label>
-                <input type="time" name="endTime" id="endTime">
+                <input type="time" name="endTime" id="endTime" required>
               </section>
             </div>
             <div class="mentorships">
